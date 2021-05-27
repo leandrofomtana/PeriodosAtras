@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ProjetoTeste\**" />
+    <Compile Remove="Testes\**" />
+    <EmbeddedResource Remove="ProjetoTeste\**" />
+    <EmbeddedResource Remove="Testes\**" />
+    <None Remove="ProjetoTeste\**" />
+    <None Remove="Testes\**" />
+  </ItemGroup>
+
+</Project>
